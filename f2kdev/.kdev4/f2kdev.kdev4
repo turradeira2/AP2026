@@ -1,0 +1,50 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0c\x00f\x002\x00k\x00d\x00e\x00v)
+
+[CMake]
+Auto Configure on CMakeLists Changes=true
+Build Directory Count=1
+Current Build Directory Index-Sistema Anfitrião=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+Runtime=Sistema Anfitrião
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=f2kdev
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Debugger Shell=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x0c\x00f\x002\x00k\x00d\x00e\x00v\x00\x00\x00\x0c\x00f\x002\x00k\x00d\x00e\x00v)
+Dependency Action=Build
+Display Demangle Names=true
+Display Static Members=false
+EnvironmentGroup=
+Executable=file:///home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev
+External Terminal=konsole --hold -e
+GDB Path=
+Kill Before Executing Again=4194304
+Project Target=f2kdev,f2kdev
+Remote GDB Config Script=
+Remote GDB Run Script=
+Remote GDB Shell Script=
+Start With=ApplicationOutput
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=

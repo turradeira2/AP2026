@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build",
+  "command": "/usr/bin/cc -g -o CMakeFiles/f2kdev.dir/main.c.o -c \"/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/main.c\"",
+  "file": "/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/main.c",
+  "output": "/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/f2kdev.dir/main.c.o"
+}
+]

@@ -1,0 +1,7 @@
+/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/f2kdev.dir
+/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/edit_cache.dir
+/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/rebuild_cache.dir
+/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/list_install_components.dir
+/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/install.dir
+/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/install/local.dir
+/home/toaster/Área de Trabalho/UNI/Algoritmos e Programação/f2kdev/build/CMakeFiles/install/strip.dir

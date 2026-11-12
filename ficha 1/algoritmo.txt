@@ -1,0 +1,6 @@
+4.
+ENTRADA:
+    NUMERO1: INT
+    NUMERO2: INT
+    NUMERO3: INT
+    

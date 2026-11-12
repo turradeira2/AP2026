@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include "func_funcs.h"
+
+int main()
+{
+    setlocale(LC_ALL,"portuguese");
+
+    /* Exercícios 1 e 2 */
+
+    /* Exercício 3 */
+
+    /* Exercício 4 */
+
+
+    /* Exercício 5 */
+
+    /* Exercício 6 */
+
+    /* Exercícios 7 e 8 */
+
+
+    /* Exercício 9 */
+
+    /* Exercício 10 */
+
+
+    return 0;
+}
+
+
+}

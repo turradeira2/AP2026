@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+
+typedef struct
+{
+    float coordX;
+    float coordY;
+}Ponto;
+
+void ex1()
+{
+    Ponto ponto1,ponto2;
+    float hip,cat1,cat2
+
+    //inserir coordenadas de ponto1
+    printf("Inserir coordenadas do ponto1:\n");
+    scanf("%f %f",&ponto1);
+    printf("Inserir coordenadas do ponto2:\n");
+    scanf("%f %f",&ponto2);
+    if(ponto1.coordX - ponto2.coordX > 0)
+    {
+        cat1 = ponto1.coordX - ponto2.coordX;
+    }
+    else if(ponto1.coordX - ponto2.coordX < 0)
+    {
+        cat1 = ponto2.coordX - ponto1.coordX;
+    }
+    else if(ponto1.coordX - ponto2.coordX < 0)
+
+
+}
+
+int main()
+{
+    setlocale(LC_ALL,"portuguese");
+
+    printf("Hello world!\n");
+    return 0;
+}

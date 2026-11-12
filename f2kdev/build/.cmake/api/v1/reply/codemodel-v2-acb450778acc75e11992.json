@@ -1,0 +1,62 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-216070a0607d7ae85cd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "f2kdev",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "f2kdev::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-f2kdev-Debug-1a1bad0b7e3ee8d6683e.json",
+					"name" : "f2kdev",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/toaster/\u00c1rea de Trabalho/UNI/Algoritmos e Programa\u00e7\u00e3o/f2kdev/build",
+		"source" : "/home/toaster/\u00c1rea de Trabalho/UNI/Algoritmos e Programa\u00e7\u00e3o/f2kdev"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
