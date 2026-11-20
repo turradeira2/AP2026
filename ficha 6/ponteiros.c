@@ -1,13 +1,19 @@
+#include <stdio.h>
 #include "ponteiros.h"
-#include "common.h"
 
-void leMatriz(int *m, int nL,int nC)
+/*
+*TODO : ESTRUTURA DE MATRIZ
+*/
+
+void leMatriz(int **m, int nL,int nC)
 {
     int i,j;
     for (i = 0; i < nL ; i++)
     {
         for (j = i+1; j < nC; j++)
         {
+            printf("M[%d][%d] = ",i,j);
+            scanf("%d",&m[i][j]);
             
         }
     }
