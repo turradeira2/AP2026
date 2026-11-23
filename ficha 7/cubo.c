@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int readCubo()
 {
     printf("\e[1;1H\e[2J");
