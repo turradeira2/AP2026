@@ -3,7 +3,7 @@
 #include <locale.h>
 #include <string.h>
 
-#include "ficheiros.h"
+#include "cubo.h"
 
 #define MAX 100
 
@@ -78,7 +78,20 @@ void ex3()
     tamanho = ftell(file);
     printf("Tamanho do ficheiro: %d bytes\n", tamanho);
     fclose(file);
-    
+}
+
+void ex4()
+{
+    int cubo_num = 0, expo = 0;
+    int numero = leitura();
+    char filename[] = "cubo.txt";
+    FILE *file = fopen(filename,"w");
+    fprintf(file,"Cubo de %d = %d\n", numero, cubo(numero));
+    printf("Exponeciar:\n");
+    scanf("%d",&expo);
+    fprintf(file,"%d exponenciado a %d = %d\n",numero, expo, exponenciacao(numero, expo));
+    fclose(file);
+    ex2(filename);
 }
 
 int main()
@@ -87,11 +100,11 @@ int main()
     char filename[10] = "ex1.txt";
     ex1();
     printf("\n");
-    printf("\n");
     ex2(filename);
     printf("\n");
-    printf("\n");
     ex3();
+    printf("\n");
+    ex4();
 }
 
 /*

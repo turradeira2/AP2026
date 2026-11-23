@@ -1,0 +1,2 @@
+Cubo de 5 = 125
+5 exponenciado a 100 = -1971132175

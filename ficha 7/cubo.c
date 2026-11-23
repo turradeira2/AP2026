@@ -1,16 +1,29 @@
 #include <stdio.h>
 
-int readCubo()
+int leitura()
 {
-    printf("\e[1;1H\e[2J");
     int valor = 0;
     printf("Insira um número: \n");
     scanf("%d",&valor);
     return valor;
 }
 
-int cubo(int n);
-int exponcial(int x, int exp); 
+int cubo(int n)
+{
+    return n * n * n;
+}
+
+int exponenciacao(int x, int exp)
+{
+    int resultado = 1;
+
+    for (int i = 0; i < exp; i++)
+    {
+        resultado *= x;
+    }
+
+    return resultado;
+}
 
 /* ============================================================
  * EXERCÍCIO 4 — Cubo e exponenciação
