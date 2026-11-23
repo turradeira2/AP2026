@@ -40,7 +40,6 @@ int ex1()
     {
         printf("STRING - para sair escrever '.' \n");
         fgets(escrever,sizeof(escrever),stdin);
-        //fputs(escrever,file);
         if(strcmp(escrever,".\n") == 0)
         {
             break; 
@@ -51,13 +50,48 @@ int ex1()
         }
     }
     fclose(file);
-    return 0;
+}
+
+void ex2(char *filename)
+{
+    char reader[MAX];
+    FILE* file = fopen(filename, "r");
+    while (fgets(reader,MAX,file) != NULL)
+    {
+        printf("%s", reader);
+    }
+}
+
+void ex3()
+{
+    int tamanho;
+    char filename[MAX];
+    printf("Nome do ficheiro: ");
+    scanf("%99s", filename);
+    FILE *file = fopen(filename, "rb");
+    if (file == NULL)
+    {
+        printf("Erro ao abrir o ficheiro!\n");
+        return;
+    }
+    fseek(file, 0, SEEK_END);
+    tamanho = ftell(file);
+    printf("Tamanho do ficheiro: %d bytes\n", tamanho);
+    fclose(file);
+    
 }
 
 int main()
 {
     setlocale(LC_ALL,"portuguese");
+    char filename[10] = "ex1.txt";
     ex1();
+    printf("\n");
+    printf("\n");
+    ex2(filename);
+    printf("\n");
+    printf("\n");
+    ex3();
 }
 
 /*
